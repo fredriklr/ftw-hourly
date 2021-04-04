@@ -9,12 +9,12 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 const defaultLocations = [
   {
-    id: 'default-new-york',
+    id: 'default-oslo',
     predictionPlace: {
-      address: 'New York City, New York, USA',
+      address: 'Oslo, Norge',
       bounds: new LatLngBounds(
-        new LatLng(40.917576401307, -73.7008392055224),
-        new LatLng(40.477399, -74.2590879797556)
+        new LatLng(59.8890866, 10.68612998),
+        new LatLng(59.96214512, 10.79577184)
       ),
     },
   },
