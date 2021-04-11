@@ -11,50 +11,50 @@ const defaultLocations = [
   {
     id: 'default-oslo',
     predictionPlace: {
-      address: 'Oslo, Norge',
+      address: 'Oslo',
       bounds: new LatLngBounds(
-        new LatLng(59.8890866, 10.68612998),
-        new LatLng(59.96214512, 10.79577184)
+        new LatLng(59.9621451, 10.79577184),
+        new LatLng(59.8890866, 10.68612998)
       ),
     },
   },
   {
-    id: 'default-los-angeles',
+    id: 'default-bergen',
     predictionPlace: {
-      address: 'Los Angeles, California, USA',
+      address: 'Bergen',
       bounds: new LatLngBounds(
-        new LatLng(34.161440999758, -118.121305008073),
-        new LatLng(33.9018913203336, -118.521456965901)
+        new LatLng(60.411551, 5.358790),
+        new LatLng(60.377595, 5.296574)
       ),
     },
   },
   {
-    id: 'default-san-francisco',
+    id: 'default-stavanger',
     predictionPlace: {
-      address: 'San Francisco, California, USA',
+      address: 'Stavanger',
       bounds: new LatLngBounds(
-        new LatLng(37.8324430069081, -122.354995082683),
-        new LatLng(37.6044780500533, -122.517910874663)
+        new LatLng(58.9978551, 5.77814),
+        new LatLng(58.8632659, 5.56644)
       ),
     },
   },
   {
-    id: 'default-seattle',
+    id: 'default-trondheim',
     predictionPlace: {
-      address: 'Seattle, Washington, USA',
+      address: 'Trondheim',
       bounds: new LatLngBounds(
-        new LatLng(47.7779392908564, -122.216605992108),
-        new LatLng(47.3403950185547, -122.441233019046)
+        new LatLng(63.471333, 10.514119),
+        new LatLng(63.381017, 10.318926)
       ),
     },
   },
   {
-    id: 'default-portland',
+    id: 'default-fredrikstad',
     predictionPlace: {
-      address: 'Portland, Oregon, USA',
+      address: 'Fredrikstad',
       bounds: new LatLngBounds(
-        new LatLng(45.858099013046, -122.441059986416),
-        new LatLng(45.3794799927623, -122.929215816001)
+        new LatLng(59.273414, 11.036079),
+        new LatLng(59.195768, 10.886733)
       ),
     },
   },
