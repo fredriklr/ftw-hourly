@@ -78,22 +78,22 @@ export const filters = [
       step: 5,
     },
   },
-  {
-    id: 'keyword',
-    label: 'Keyword',
-    type: 'KeywordFilter',
-    group: 'primary',
+  //{ "Fjernet keyword i og med at det ikke er nødvendig"
+   // id: 'keyword',
+   // label: 'Keyword',
+    //type: 'KeywordFilter',
+    //group: 'primary',
     // Note: KeywordFilter is fixed filter,
     // you can't change "queryParamNames: ['keywords'],"
-    queryParamNames: ['keywords'],
+   // queryParamNames: ['keywords'],
     // NOTE: If you are ordering search results by distance
     // the keyword search can't be used at the same time.
     // You can turn on/off ordering by distance from config.js file.
-    config: {},
-  },
+   // config: {},
+  //},
   {
     id: 'yogaStyles',
-    label: 'Yoga styles',
+    label: 'Andre filtrer',
     type: 'SelectMultipleFilter',
     group: 'secondary',
     queryParamNames: ['pub_yogaStyles'],
@@ -107,33 +107,33 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'ashtanga', label: 'Ashtanga' },
-        { key: 'hatha', label: 'Hatha' },
-        { key: 'kundalini', label: 'Kundalini' },
-        { key: 'restorative', label: 'Restorative' },
-        { key: 'vinyasa', label: 'Vinyasa' },
-        { key: 'yin', label: 'Yin' },
+        { key: 'elbillading', label: 'Elbil lader' },
+        { key: 'innendørs', label: 'Innendørs parkering' },
+        { key: 'garasjeport', label: 'Garasjeport med kode' },
+        //{ key: 'restorative', label: 'Restorative' },
+        //{ key: 'vinyasa', label: 'Vinyasa' },
+        //{ key: 'yin', label: 'Yin' },
       ],
     },
   },
-  {
-    id: 'certificate',
-    label: 'Certificate',
-    type: 'SelectSingleFilter',
-    group: 'secondary',
-    queryParamNames: ['pub_certificate'],
-    config: {
+  //{
+   // id: 'certificate',
+  //label: 'Certificate',
+    //type: 'SelectSingleFilter',
+    //group: 'secondary',
+    //queryParamNames: ['pub_certificate'],
+    //config: {
       // "key" is the option you see in Flex Console.
       // "label" is set here for the UI only.
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
-      options: [
-        { key: 'none', label: 'None', hideFromFilters: true, hideFromListingInfo: true },
-        { key: '200h', label: 'Registered yoga teacher 200h' },
-        { key: '500h', label: 'Registered yoga teacher 500h' },
-      ],
-    },
-  },
+      //options: [
+       // { key: 'none', label: 'None', hideFromFilters: true, hideFromListingInfo: true },
+       // { key: '200h', label: 'Registered yoga teacher 200h' },
+      //  { key: '500h', label: 'Registered yoga teacher 500h' },
+     // ],
+   // },
+  //},
 ];
 
 export const sortConfig = {
