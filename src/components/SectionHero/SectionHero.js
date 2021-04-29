@@ -30,6 +30,7 @@ const SectionHero = props => {
         >
           <FormattedMessage id="SectionHero.browseButton" />
         </NamedLink>
+        <h1>Dette er en overskrift</h1>
       </div>
     </div>
   );
